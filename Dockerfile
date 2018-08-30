@@ -5,4 +5,4 @@ RUN apk add tzdata
 COPY redis.conf /data/redis.conf \
   redis.sh /data/redis.sh
 
-CMD ["/bin/sh", "/data/redis-entrypoint.sh"]
+CMD ["/bin/sh", "/data/redis.sh"]
